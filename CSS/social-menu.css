@@ -1,0 +1,36 @@
+.social-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin-left: 100px;
+}
+
+.social-menu a .fa {
+    font-size: 20px;
+    line-height: 30px;
+    transition: .6s;
+    color: #000;
+}
+.social-menu a .fa:hover {
+   color: #fff ;
+}
+#facebook:hover {
+    background-color: #3b5999;
+}
+#whatsapp:hover {
+    background-color: #25D366;
+}
+.social-menu a {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgb(252, 201, 210);
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+}
+.social-menu a:hover {
+    transform: translate(0, -5px);
+}
