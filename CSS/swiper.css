@@ -1,0 +1,15 @@
+.swiper-container {
+    width: 600px;
+    height: 600px;
+    position: relative;
+  }
+  .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .swiper_img {
+      width: 100%;
+  }
+
