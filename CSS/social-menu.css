@@ -1,8 +1,6 @@
 .social-menu {
     display: flex;
-    justify-content: space-between;
-    width: 100px;
-    margin-left: 100px;
+    justify-content: center;
 }
 
 .social-menu a .fa {
@@ -30,6 +28,7 @@
     background-color: rgb(252, 201, 210);
     transition: .6s;
     box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+    margin: 30px;
 }
 .social-menu a:hover {
     transform: translate(0, -5px);

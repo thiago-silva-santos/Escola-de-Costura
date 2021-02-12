@@ -15,4 +15,26 @@
         width: 300px;
         height: 300px;
     }
+    #logo {
+        width: 120px;
+    }
+}
+@media screen and (max-width: 1000px){
+
+    .caixa-header {
+        width: auto;
+        justify-content: space-between;
+        padding: 10px 30px;
+        align-items: center;
+    }
+    /* LISTA DE LINKS DO HEADER RESPONSIVO */
+    .links {
+        display: none;
+    }
+    .menu-span {
+        display: flex;
+    }
+    #logo {
+        width: 120px;
+    }
 }
