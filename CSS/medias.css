@@ -11,9 +11,11 @@
 
 
 @media (max-width: 690px){
+    .container {
+        height: 500px;
+    }
     .swiper-container {
-        width: 300px;
-        height: 300px;
+        width: 100%;
     }
     #logo {
         width: 120px;
