@@ -40,3 +40,24 @@
         width: 120px;
     }
 }
+
+/* MEDIA PÁGINA CONTATOS */
+@media (max-width: 990px) {
+    .contact {
+        padding: 40px;
+    }
+    .containerContato {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .contactInfo {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .contactForm {
+        margin-bottom: 40px;
+        width: 90%;
+    }
+ 
+}

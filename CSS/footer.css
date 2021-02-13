@@ -1,6 +1,17 @@
 footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 200px;
     background-color: pink;
-    margin: 40px 0 auto;
+    margin: 0 auto;
+    padding: 30px;
+}
+.footerIMG {
+    width: 200px;
+}
+footer p {
+    margin: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
