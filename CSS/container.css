@@ -6,6 +6,7 @@
     padding: 30px 20px;
     border-radius: 10px;
     position: relative;
+    margin-bottom: 120px;
 }
 .titulo_container {
     display: flex;
@@ -17,27 +18,23 @@
 }
 
 .titulo_container h2 {
-    width: 150px;
-    text-align: center;
+    position: absolute;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     color: rgb(190, 80, 150);
 }
 .span-titulo {
-    display: block;
     width: 400px;
     height: 5px;
     background-color: rgba(119, 59, 116, 0.12);
 }
 .span-titulo.left {
     left: 0;
-    margin: 0 1em;
+    margin: 0 5em;
 }
 .span-titulo.right {
     right: 0;
-    margin: 0 1em;
+    margin: 0 5em;
 }
-
-
 

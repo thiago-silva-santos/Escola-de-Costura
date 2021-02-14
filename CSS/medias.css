@@ -21,7 +21,7 @@
         width: 120px;
     }
 }
-@media screen and (max-width: 1000px){
+@media (max-width: 1000px){
 
     .caixa-header {
         width: auto;
@@ -40,6 +40,10 @@
         width: 120px;
     }
 }
+
+/* MEDIA FOOTER */
+
+
 
 /* MEDIA PÁGINA CONTATOS */
 @media (max-width: 990px) {
@@ -60,4 +64,29 @@
         width: 90%;
     }
  
+}
+
+/* Medias página cursos */
+
+ @media (max-width: 990px){
+    .container-banner{
+        width: 100%;
+        position: relative;
+    }
+    .text-overlay h1 {
+        width: 50%;
+        font-size: 18px;
+        text-align: center;
+    }
+    .text-overlay p {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+    .social-menu-cursos a {
+        font-size: 40px;
+        width: 50px;
+        height: 50px;
+        margin-top: 15px;
+    }
 }

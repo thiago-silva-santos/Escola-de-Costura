@@ -87,12 +87,12 @@ nav {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 18px;
-    color: rgb(190, 80, 150);
+    color: white
 }
 
 .links a:hover {
 
-    border-bottom: 3px solid rgb(190, 80, 150);
+    border-bottom: 3px solid white;
 
 }
 

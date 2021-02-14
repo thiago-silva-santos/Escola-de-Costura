@@ -1,8 +1,10 @@
+@import url('/CSS/reset.css');
 @import url('/CSS/header.css');
+@import url('/CSS/footer.css');
 @import url('/CSS/social-menu.css');
 @import url('/CSS/animations.css');
 @import url('/CSS/container.css');
 @import url('/CSS/swiper.css');
-@import url('/CSS/footer.css');
 @import url('/CSS/contato.css');
+@import url('/CSS/cursos.css');
 @import url('/CSS/medias.css');
