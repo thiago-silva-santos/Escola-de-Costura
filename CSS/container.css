@@ -1,12 +1,13 @@
 .container {
     display: flex;
-    width: 1150px;
+    width: 840px;
     margin: 0 auto;
     align-items: center;
     padding: 30px 20px;
     border-radius: 10px;
     position: relative;
     margin-bottom: 120px;
+    background-color: pink;
 }
 .titulo_container {
     display: flex;

@@ -1,28 +1,4 @@
-@media (max-width: 1240px) {
-    .container {
-        width: 90%;
-        flex-direction: column;
-    }
-    .texto {
-        width: 90%;
-        margin-bottom: 20px;
-    }
-}
-
-
-@media (max-width: 690px){
-    .container {
-        height: 500px;
-    }
-    .swiper-container {
-        width: 100%;
-    }
-    #logo {
-        width: 120px;
-    }
-}
-@media (max-width: 1000px){
-
+@media only screen and (max-width: 980px) {
     .caixa-header {
         width: auto;
         justify-content: space-between;
@@ -39,14 +15,29 @@
     #logo {
         width: 120px;
     }
+
+    /* Container Página Principal com Slide */
+    .container {
+        width: 95%;
+        height: 95%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        padding: 0px;
+    }
+    .container {
+        height: 500px;
+    }
+    .swiper-container {
+        width: 92%;
+        height: 92%;
+    }
+
 }
 
-/* MEDIA FOOTER */
 
 
-
-/* MEDIA PÁGINA CONTATOS */
-@media (max-width: 990px) {
+/* PÁGINA CONTATOS */
+@media (max-width: 1600px) {
     .contact {
         padding: 40px;
     }
@@ -63,24 +54,43 @@
         margin-bottom: 40px;
         width: 90%;
     }
- 
 }
 
-/* Medias página cursos */
-
- @media (max-width: 990px){
+/* PÁGINA CURSOS */
+ @media (max-width: 1600px){
     .container-banner{
         width: 100%;
         position: relative;
     }
+
+}
+@media (max-width: 880px){
     .text-overlay h1 {
-        width: 50%;
-        font-size: 18px;
+        width: 90%;
+        font-size: 22px;
         text-align: center;
     }
     .text-overlay p {
         margin-top: 20px;
-        margin-bottom: 0px;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .social-menu-cursos a {
+        font-size: 40px;
+        width: 50px;
+        height: 50px;
+        margin-top: 25px;
+    }
+}
+@media (max-width: 480px){
+    .text-overlay h1 {
+        width: 80%;
+        font-size: 16px;
+        text-align: center;
+    }
+    .text-overlay p {
+        margin-top: 20px;
+        margin-bottom: 20px;
         font-size: 14px;
     }
     .social-menu-cursos a {

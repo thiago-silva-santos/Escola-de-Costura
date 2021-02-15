@@ -1,12 +1,13 @@
 .swiper-container {
     width: 800px;
-    height: 700px;
+    height: 800px;
     position: relative;
   }
   .swiper-slide {
       display: flex;
       justify-content: center;
       align-items: center;
+      background-size: cover;
   }
   
   .swiper_img {
