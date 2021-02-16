@@ -1,18 +1,102 @@
-@media (max-width: 1240px) {
+@media only screen and (max-width: 980px) {
+    .caixa-header {
+        width: auto;
+        justify-content: space-between;
+        padding: 10px 30px;
+        align-items: center;
+    }
+    /* LISTA DE LINKS DO HEADER RESPONSIVO */
+    .links {
+        display: none;
+    }
+    .menu-span {
+        display: flex;
+    }
+    #logo {
+        width: 120px;
+    }
+
+    /* Container Página Principal com Slide */
     .container {
-        width: 90%;
-        flex-direction: column;
+        width: 95%;
+        height: 95%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        padding: 0px;
     }
-    .texto {
-        width: 90%;
-        margin-bottom: 20px;
+    .container {
+        height: 500px;
     }
+    .swiper-container {
+        width: 92%;
+        height: 92%;
+    }
+
 }
 
 
-@media (max-width: 690px){
-    .swiper-container {
-        width: 300px;
-        height: 300px;
+
+/* PÁGINA CONTATOS */
+@media (max-width: 1600px) {
+    .contact {
+        padding: 40px;
+    }
+    .containerContato {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .contactInfo {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .contactForm {
+        margin-bottom: 40px;
+        width: 90%;
+    }
+}
+
+/* PÁGINA CURSOS */
+ @media (max-width: 1600px){
+    .container-banner{
+        width: 100%;
+        position: relative;
+    }
+
+}
+@media (max-width: 880px){
+    .text-overlay h1 {
+        width: 90%;
+        font-size: 22px;
+        text-align: center;
+    }
+    .text-overlay p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .social-menu-cursos a {
+        font-size: 40px;
+        width: 50px;
+        height: 50px;
+        margin-top: 25px;
+    }
+}
+@media (max-width: 480px){
+    .text-overlay h1 {
+        width: 80%;
+        font-size: 16px;
+        text-align: center;
+    }
+    .text-overlay p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .social-menu-cursos a {
+        font-size: 40px;
+        width: 50px;
+        height: 50px;
+        margin-top: 15px;
     }
 }
