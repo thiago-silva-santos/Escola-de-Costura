@@ -17,6 +17,14 @@
     }
 
     /* Container Página Principal com Slide */
+    .titulo_container h2 {
+        position: absolute;
+        font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: bold;
+        color: #ffc0cb;
+    }
     .container {
         width: 95%;
         height: 95%;
@@ -30,6 +38,36 @@
     .swiper-container {
         width: 92%;
         height: 92%;
+    }
+    .span-titulo {
+        width: 400px;
+        height: 5px;
+        background-color: rgba(119, 59, 116, 0.12);
+    }
+    .span-titulo.left {
+        left: 0;
+        margin: 0 4em 0 2em;
+    }
+    .span-titulo.right {
+        right: 0;
+        margin: 0 2em 0 4em ;
+    }
+
+
+    /* Footer */
+
+    footer {
+        padding: 10px 0;
+        margin: 0 auto;
+    }
+    .footerIMG {
+        width: 100px;
+    }
+    footer p {
+        text-align: center;
+        font-size: 12px;
+        margin: 10px 10px;
+        font-family: 'Open Sans', sans-serif;
     }
 
 }
@@ -67,7 +105,7 @@
 @media (max-width: 880px){
     .text-overlay h1 {
         width: 90%;
-        font-size: 22px;
+        font-size: 24px;
         text-align: center;
     }
     .text-overlay p {
