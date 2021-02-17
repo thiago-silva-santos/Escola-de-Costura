@@ -3,11 +3,9 @@
     width: 840px;
     margin: 0 auto;
     align-items: center;
-    padding: 30px 20px;
     border-radius: 10px;
     position: relative;
     margin-bottom: 120px;
-    background-color: rgb(255, 180, 225);
 }
 .titulo_container {
     display: flex;
@@ -23,7 +21,7 @@
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
-    color: rgb(255, 180, 225);
+    color: rgb(126, 35, 73);
 }
 .span-titulo {
     width: 400px;
