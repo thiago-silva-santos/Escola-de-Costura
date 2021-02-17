@@ -119,6 +119,6 @@ nav {
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 15px;
-    border-bottom: pink solid 2px;
+    border-bottom: rgb(255, 180, 225) solid 2px;
 }
 
