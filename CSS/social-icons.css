@@ -8,7 +8,7 @@
     font-size: 30px;
     line-height: 20px;
     transition: .6s;
-    color: rgb(56, 8, 40);
+    color: white;
 }
 .social-menu a .fa:hover {
    color: #fff ;
@@ -16,8 +16,15 @@
 #facebook:hover {
     background-color: #3b5999;
 }
+
 #whatsapp:hover {
     background-color: #25D366;
+}
+#instagram:hover {
+    background-color: #e4405f;
+}
+.social-menu-cursos a:hover {
+    color: #fff;
 }
 .social-menu a {
     position: relative;
@@ -54,6 +61,3 @@
     margin-top: 100px;
 }
 
-.social-menu-cursos a:hover {
-    color: #fff;
-}

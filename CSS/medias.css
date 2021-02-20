@@ -21,8 +21,8 @@
         position: absolute;
         font-family: 'Akaya Kanadaka', cursive;
         text-transform: uppercase;
-        font-size: 12px;
         font-weight: bold;
+        margin-bottom: 0px;
     }
     .container {
         width: 100%;
@@ -70,8 +70,43 @@
 
 }
 
+/* Section Beneficios */
 
+@media (max-width: 1380px) {
+    .section-principal {
+        display: flex;
+        max-width: 100%;
+        flex-direction: column;
+    
+    }
+    .box1 {
+        max-width: 100%;
+    }
+    .box2 {
+        max-width: 100%;
+    
+    }
+    .box-img {
+        width: 100%;
+    }
+    .container-boxx {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        margin-bottom: 0;
+    }
+    .section-principal .container-boxx:nth-child(2) {
+        flex-direction: column-reverse;
+        background-color: #A8B4A5;
+    }
+    .section-principal .container-boxx:nth-child(4) {
+        flex-direction: column-reverse;
+        background-color:  #EE92B5; 
+    }
 
+}
 /* PÁGINA CONTATOS */
 @media (max-width: 1600px) {
     .contact {
@@ -97,7 +132,7 @@
 @media (max-width: 880px){
     .img-cursos {
         width: 300px;
-        height: 280px;
+        height: 350px;
         display: block;
     }
 

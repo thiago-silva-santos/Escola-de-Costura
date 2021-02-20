@@ -14,11 +14,12 @@
     align-items: center;
     margin: 0 auto;
     height: 80px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .titulo_container h2 {
-    position: absolute;
-    font-family: 'Akaya Kanadaka', cursive;
+    font-family: 'Balsamiq Sans', cursive;
     text-transform: uppercase;
     font-weight: bold;
     color: rgb(140, 50, 50);
@@ -31,10 +32,10 @@
 }
 .span-titulo.left {
     left: 0;
-    margin: 0 8em;
+    margin: 0 2em;
 }
 .span-titulo.right {
     right: 0;
-    margin: 0 8em;
+    margin: 0 2em;
 }
 

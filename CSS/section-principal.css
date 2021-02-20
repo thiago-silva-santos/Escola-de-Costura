@@ -1,0 +1,72 @@
+.section-principal {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: column;
+
+}
+
+.box-img {
+    max-width: 100%;
+}
+.title-beneficios {
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 1000;
+    font-size: 25px;
+}
+
+.p-beneficios {
+
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 18px;
+    line-height: 2em;
+    font-weight: 500;
+}
+.container-boxx {
+    display: flex;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.section-principal .container-boxx:nth-child(1) {
+    background-color: #EFBC9B;
+}
+.section-principal .container-boxx:nth-child(2) {
+    background-color: #A8B4A5;
+}
+.section-principal .container-boxx:nth-child(3) {
+    background-color: #9D6A89;
+    color: white;
+}
+.section-principal .container-boxx:nth-child(4) {
+    background-color:  #EE92B5; 
+}
+.section-principal .container-boxx:nth-child(5) {
+    margin-bottom: 0;
+    background-color: #725D68;
+    color: white;
+}
+.box1 {
+    max-width: 50%;
+}
+.box2 {
+    max-width: 50%;
+    padding: 20px;
+
+}
+
+.container-boxx-creditos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-boxx-creditos p {
+    text-align: center;
+    padding: 5px;
+    font-family: 'Balsamiq Sans', cursive;
+    color: rgba(128, 128, 128, 0.671);
+    font-size: 12px;
+    margin-bottom: 20px;
+}
