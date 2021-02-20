@@ -1,6 +1,7 @@
 .nonscroll {
     overflow: hidden;
 }
+
 .header {
     width: 100%;
     background-color: rgb(255, 180, 225);
@@ -97,7 +98,7 @@ nav {
 
 .links a:hover {
 
-    background-color: #00bcd4;
+    background-color: #e4405f;
     border-radius: 5px;
     color: white;
     

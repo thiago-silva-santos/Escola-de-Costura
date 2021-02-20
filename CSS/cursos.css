@@ -55,6 +55,7 @@
 }
 .img-cursos {
     width: 400px;
-    height: 380px;
+    height: 450px;
     display: block;
+    background-size: cover;
 }
