@@ -18,10 +18,11 @@
 
 .titulo_container h2 {
     position: absolute;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Akaya Kanadaka', cursive;
     text-transform: uppercase;
     font-weight: bold;
-    color: rgb(126, 35, 73);
+    color: rgb(140, 50, 50);
+    font-size: 25px;
 }
 .span-titulo {
     width: 400px;
@@ -30,10 +31,10 @@
 }
 .span-titulo.left {
     left: 0;
-    margin: 0 5em;
+    margin: 0 8em;
 }
 .span-titulo.right {
     right: 0;
-    margin: 0 5em;
+    margin: 0 8em;
 }
 

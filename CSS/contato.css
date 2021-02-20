@@ -12,7 +12,8 @@
     max-width: 800px;
     text-align: center;
     margin-bottom: 80px;
-}
+} 
+
 /* Container pai com 2 containers menores dentro: contactInfo e contactForm */
 .containerContato {
     width: 1500px;
@@ -24,7 +25,9 @@
     margin-top: 30px;
     background-color: #ffb4e1;
 
-}
+} 
+
+
 .contactInfo{
     width: 40%;
     display: flex;
@@ -47,6 +50,17 @@
     padding: 20px 0;
     display: flex;
 }
+
+/* Formatação para box que contém links */
+.box-a {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    text-decoration: none;
+    
+} 
+
+
 .icon {
     min-width: 60px;
     height: 60px;
@@ -57,6 +71,17 @@
     border-radius: 50%;
     font-size: 22px;
 }
+
+/* Cor dos icones */
+.icon .fa {
+    color: black;
+}
+
+
+
+
+
+
 .text {
     display: flex;
     margin-left: 20px;
@@ -65,6 +90,7 @@
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .text p {
     line-height: 1.5em;
     margin: 15px 0;
