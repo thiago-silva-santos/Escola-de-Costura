@@ -1,5 +1,5 @@
 html {
-    scroll-behavior: smooth;
+    behavior: smooth;
 }
   .to-top {
     background: rgb(245, 83, 180);
