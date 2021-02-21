@@ -19,6 +19,7 @@ html {
     transition: all 1s;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
     cursor: pointer;
+    visibility: hidden;
   }
   .to-top:hover {
     transform: translateY(-10px);
@@ -26,4 +27,5 @@ html {
  .to-top.active {
     bottom:32px;
     opacity: 1;
+    visibility: visible;
   }
