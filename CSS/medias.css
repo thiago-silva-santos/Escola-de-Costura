@@ -139,5 +139,11 @@
     .box-cursos:hover {
         transform: none;
     }
+    .desc-cursos h1 {
+        margin: 20px 0;
+    }
+    .desc-cursos p {
+        font-size: 1em;
+    }
 
 }
