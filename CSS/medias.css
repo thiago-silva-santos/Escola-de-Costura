@@ -136,5 +136,8 @@
         height: 280px;
         display: block;
     }
+    .box-cursos:hover {
+        transform: none;
+    }
 
 }
