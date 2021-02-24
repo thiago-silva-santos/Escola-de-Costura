@@ -29,6 +29,7 @@
     margin: 0 auto;
     justify-content: center;
     margin-bottom: 150px;
+    position: relative;
     
 }
 .box-cursos {
@@ -38,6 +39,7 @@
     cursor: pointer;
     border-radius: 2px;
     transition: 0.5s ease-in-out;
+    position: relative;
     
 }
 .box-cursos:hover {
@@ -55,7 +57,33 @@
 }
 .img-cursos {
     width: 400px;
-    height: 450px;
+    height: 380px;
     display: block;
     background-size: cover;
+    pointer-events: none
+}
+.desc-cursos h1 {
+    margin: 25px 0;
+}
+.desc-cursos p {
+    padding: 15px;
+    line-height: 2em;
+}
+.desc-cursos {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    color: white;
+    background-color:  rgba(255, 180, 225, 0.7);
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+    pointer-events: none
+}
+
+ .box-cursos.has-it .desc-cursos {
+    visibility: visible;
+    opacity: 1;
 }
