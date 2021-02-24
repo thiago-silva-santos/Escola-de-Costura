@@ -84,7 +84,7 @@
     height: 100%;
     text-align: center;
     font-family: 'Courgette', cursive;
-    color: #a50fd3;
+    color: #9b2c19;
     background-color:  rgba(255, 180, 225, 0.8);
     visibility: hidden;
     opacity: 0;
@@ -92,7 +92,7 @@
     pointer-events: none;
 }
 
- .box-cursos.has-it .desc-cursos {
+ .box-cursos.show-it .desc-cursos {
     visibility: visible;
     opacity: 1;
 }
