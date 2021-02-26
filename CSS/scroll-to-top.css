@@ -20,6 +20,7 @@ html {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
     cursor: pointer;
     visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
   }
   .to-top:hover {
     transform: translateY(-10px);

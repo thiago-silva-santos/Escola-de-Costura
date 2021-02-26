@@ -19,7 +19,6 @@
     /* Container Página Principal com Slide */
     .titulo_container h2 {
         position: absolute;
-        font-family: 'Akaya Kanadaka', cursive;
         text-transform: uppercase;
         font-weight: bold;
         margin-bottom: 0px;
@@ -66,7 +65,6 @@
         text-align: center;
         font-size: 10px;
         margin: 10px 10px;
-        font-family: 'Open Sans', sans-serif;
     }
 
 }
@@ -100,11 +98,9 @@
     }
     .section-principal .container-boxx:nth-child(2) {
         flex-direction: column-reverse;
-        background-color: #A8B4A5;
     }
     .section-principal .container-boxx:nth-child(4) {
         flex-direction: column-reverse;
-        background-color:  #EE92B5; 
     }
 
 }

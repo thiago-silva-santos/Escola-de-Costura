@@ -1,6 +1,9 @@
 .nonscroll {
     overflow: hidden;
 }
+body {
+    background-color: rgba(255, 180, 225, 0.1);
+}
 
 .header {
     width: 100%;
@@ -48,7 +51,7 @@
     padding: 15px 0;
     position: relative;
     z-index: 10;
-
+    -webkit-tap-highlight-color: transparent;
 
 
 }
@@ -57,6 +60,7 @@
     cursor: pointer;
     flex-direction: column;
     width: 30px;
+    -webkit-tap-highlight-color: transparent;
 }
 .menu-span span {
     width: 100%;
@@ -81,7 +85,7 @@ nav {
     align-items: center;
 }
 #logo {
-    max-width: 200px;
+    max-width: 150px;
 }
 
 .links a {
@@ -98,9 +102,8 @@ nav {
 
 .links a:hover {
 
-    background-color: #e4405f;
+    background-color: #CDB4DB;
     border-radius: 5px;
-    color: white;
     
     /* border-bottom: 3px solid white; */
 
@@ -130,5 +133,6 @@ nav {
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 15px;
     border-bottom: rgb(255, 180, 225) solid 2px;
+    -webkit-tap-highlight-color: transparent;
 }
 
