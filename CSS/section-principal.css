@@ -30,17 +30,16 @@
     margin-bottom: 50px;
 }
 .section-principal .container-boxx:nth-child(1) {
-    background-color: #EFBC9B;
+    background-color: #FFAFCC;
 }
 .section-principal .container-boxx:nth-child(2) {
     background-color: #A8B4A5;
 }
 .section-principal .container-boxx:nth-child(3) {
-    background-color: #9D6A89;
-    color: white;
+    background-color: #9DAD6F;
 }
 .section-principal .container-boxx:nth-child(4) {
-    background-color:  #EE92B5; 
+    background-color:  #EDBBB4;
 }
 .section-principal .container-boxx:nth-child(5) {
     margin-bottom: 0;

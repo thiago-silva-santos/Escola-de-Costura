@@ -2,6 +2,7 @@
     width: 840px;
     height: 800px;
     position: relative;
+    -webkit-tap-highlight-color: transparent;
   }
   .swiper-slide {
       display: flex;
@@ -15,5 +16,5 @@
   }
 
   .swiper-pagination span {
-    --swiper-theme-color: rgb(245, 83, 180);
+    --swiper-theme-color: rgba(255, 180, 225, 0.8);
   }
