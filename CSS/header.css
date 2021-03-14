@@ -13,6 +13,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     position: relative;
 }
+#logo {
+    max-width: 150px;
+}
 .header.open span:first-child {
     transform: rotate(45deg);
 }
@@ -22,26 +25,7 @@ body {
 .header.open span:last-child {
     transform: rotate(-45deg);
 }
-.overlay.fade-in {
-    position: fixed;
-    background: linear-gradient(rgb(255, 180, 225), transparent);
-    top: 0px;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 2;
-}
 
-.overlay.fade-out {
-    position: fixed;
-    background: linear-gradient(rgb(255, 180, 225), transparent);
-    top: 0px;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 2;
-
-}
 .caixa-header {
     display: flex;
     justify-content: space-between;
@@ -52,9 +36,30 @@ body {
     position: relative;
     z-index: 10;
     -webkit-tap-highlight-color: transparent;
-
-
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links a {
+    margin: 0 5px;
+    padding: 1px 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(140, 50, 50);
+    transition: 0.5s;
+    
+}
+.links a:hover {
+
+    background-color: #CDB4DB;
+    border-radius: 5px;
+}
+
+/* Botão para menu mobile */
 .menu-span {
     display: none;
     cursor: pointer;
@@ -79,38 +84,28 @@ body {
 .menu-span span:nth-child(3){
     margin-top: 8px;
 }
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/* Overlay ao abrir menu mobile */
+.overlay.fade-in {
+    position: fixed;
+    background: linear-gradient(rgb(255, 180, 225), transparent);
+    top: 0px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
 }
-#logo {
-    max-width: 150px;
-}
-
-.links a {
-    margin: 0 5px;
-    padding: 1px 5px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 18px;
-    color: rgb(140, 50, 50);
-    transition: 0.5s;
-    
-}
-
-.links a:hover {
-
-    background-color: #CDB4DB;
-    border-radius: 5px;
-    
-    /* border-bottom: 3px solid white; */
+.overlay.fade-out {
+    position: fixed;
+    background: linear-gradient(rgb(255, 180, 225), transparent);
+    top: 0px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
 
 }
 
 /* Menu mobile */
-
 .header__menu {
     background-color: white;
     padding: 25px;
@@ -122,8 +117,7 @@ nav {
     transform: translateX(-50%);
     margin-top: 24px;
 }
-
-.header__menu a {
+.header-links {
     display: block;
     text-align: center;
     color: gray;
