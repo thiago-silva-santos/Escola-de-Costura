@@ -143,8 +143,8 @@
 
 .inputBox input:focus ~ span,
 .inputBox input:valid ~ span,
-.inputBox textarea:focus ~ span
- {
+.inputBox textarea:focus ~ span,
+.inputBox textarea:valid ~ span{
     color: black;
     font-size: 14px;
     transform: translateY(-20px);
