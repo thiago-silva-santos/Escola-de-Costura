@@ -9,7 +9,7 @@
 }
 .titulo-banner h1{
     font-family: 'Courgette', cursive;
-    width: 50%;
+    width: 80%;
     font-size: 44px;
     text-align: center;
     margin-top: 20px;
@@ -39,11 +39,11 @@
     cursor: pointer;
     transition: 0.5s ease-in-out;
     position: relative;
-    border-radius: 50px;
+    border-radius: 15px;
     -webkit-tap-highlight-color: transparent;
 }
 .box-cursos:hover {
-    transform: translateY(-5%);
+    transform: scale(1.05);
 }
 
 .descricao-cursos {
@@ -55,8 +55,8 @@
     font-size: 20px;
     font-family: 'Courgette', cursive;
     pointer-events: none;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 
 }
 .img-cursos {
@@ -65,8 +65,8 @@
     display: block;
     background-size: cover;
     pointer-events: none;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     
 }
 .desc-cursos h1 {
@@ -80,7 +80,6 @@
     padding: 15px;
     line-height: 2em;
     font-size: 1.2em;
-    font-weight: bold;
     font-family: 'Balsamiq Sans', cursive;
     
 }
@@ -90,10 +89,10 @@
     height: 100%;
     text-align: center;
     font-family: 'Courgette', cursive;
-    color: #9b2c19;
-    background-color:  rgba(255, 180, 225, 0.8);
+    color: white;
+    background-color:  rgba(109, 93, 202, 0.836);
     visibility: hidden;
-    border-radius: 50px;
+    border-radius: 15px;
     opacity: 0;
     transition: 1s;
     pointer-events: none;

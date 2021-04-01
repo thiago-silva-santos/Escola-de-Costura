@@ -3,18 +3,21 @@
 }
 body {
     background-color: rgba(255, 180, 225, 0.1);
+    -webkit-tap-highlight-color: transparent;
 }
 
 .header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
     width: 100%;
     background-color: rgb(255, 180, 225);
     box-shadow: 0 3px 6px #49075030;
     margin-bottom: 40px;
     font-family: 'Open Sans', sans-serif;
-    position: relative;
 }
 #logo {
-    max-width: 150px;
+    max-width: 120px;
 }
 .header.open span:first-child {
     transform: rotate(45deg);
@@ -55,7 +58,7 @@ nav {
 }
 .links a:hover {
 
-    background-color: #CDB4DB;
+    background-color: #f098cb;
     border-radius: 5px;
 }
 
