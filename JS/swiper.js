@@ -1,7 +1,7 @@
-const swiper = new Swiper('.swiper-container', {
+const swiper = new Swiper('.swiper', {
     // Optional parameters
     //direction: 'vertical',
-    //loop: true,
+    loop: true,
   
     // If we need pagination
     pagination: {
