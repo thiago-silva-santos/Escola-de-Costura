@@ -34,7 +34,7 @@
     }
     .swiper {
         width: 100%;
-        height: 95%;
+        height: 100%;
     }
   
     .span-titulo {
@@ -147,8 +147,13 @@
     .social-menu a {
         margin: 10px;
     }
+    .contato-whats a {
+        bottom: 32px;
+        left: 32px;
+    }
     .contato-whats a:hover {
         transform: none;
+
     }
     /* Scroll to top */
     .to-top:hover {
