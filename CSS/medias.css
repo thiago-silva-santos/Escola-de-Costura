@@ -71,7 +71,7 @@
 
 /* Section Beneficios */
 
-@media (max-width: 1380px) {
+@media (max-width: 980px) {
     .section-principal {
         display: flex;
         max-width: 100%;
@@ -85,6 +85,7 @@
         max-width: 100%;
     
     }
+    
     .box-img {
         width: 100%;
     }
