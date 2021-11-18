@@ -8,6 +8,7 @@
 
 .box-img {
     max-width: 100%;
+
 }
 .title-beneficios {
     text-align: center;
@@ -48,6 +49,8 @@
 }
 .box1 {
     max-width: 50%;
+    display: flex;
+    align-items: center;
 }
 .box2 {
     max-width: 50%;
